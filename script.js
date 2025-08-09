@@ -27,18 +27,18 @@ document.addEventListener('DOMContentLoaded', function() {
             // Hide loader and show download info
             loader.style.display = 'none';
             downloadInfo.style.display = 'block';
-            downloadInfo.textContent = 'Download started! Check your notifications.';
+            downloadInfo.textContent = 'Download starting, Please Wait! Do not Refresh or Close site until download started.';
             
             // Reset after 5 seconds
             setTimeout(function() {
                 downloadInfo.style.display = 'none';
                 downloadBtn.style.display = 'inline-flex';
-            }, 5000);
+            }, 10000);
         }, 1500);
     });
     
     // Privacy Policy button functionality
     privacyBtn.addEventListener('click', function() {
-        window.location.href = 'https://gamingtahmid1yt.github.io/aichatbot-privacy-policy/';
+        window.location.href = 'https://gamingtahmid1yt.github.io/aichatbot-download/privacy-policy.html';
     });
 });
