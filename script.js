@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
             setTimeout(function() {
                 downloadInfo.style.display = 'none';
                 downloadBtn.style.display = 'inline-flex';
-            }, 10000);
+            }, 6000);
         }, 1500);
     });
     
