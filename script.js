@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const privacyBtn = document.getElementById('privacy-btn');
     
     // Replace with your actual APK file name and path
-    const apkFileName = 'AIChatBot-v2025.08-by-Tahmid.apk';
+    const apkFileName = 'Nexora AI-v2025.08-Tahmid.apk';
     const apkFilePath = `${apkFileName}`;
     
     // Download button functionality
