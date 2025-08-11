@@ -39,6 +39,6 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Privacy Policy button functionality
     privacyBtn.addEventListener('click', function() {
-        window.location.href = 'https://gamingtahmid1yt.github.io/aichatbot-download/privacy-policy.html';
+        window.location.href = 'https://gamingtahmid1yt.github.io/aichatbot-privacy-policy/';
     });
 });
