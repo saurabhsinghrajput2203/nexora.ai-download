@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const privacyBtn = document.getElementById('privacy-btn');
     
     // Replace with your actual APK file name and path
-    const apkFileName = 'Nexora AI-v2025.08-Tahmid.apk';
+    const apkFileName = 'Nexora AI-v2025.08-apk-Tahmid.apk';
     const apkFilePath = `${apkFileName}`;
     
     // Download button functionality
@@ -39,6 +39,6 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Privacy Policy button functionality
     privacyBtn.addEventListener('click', function() {
-        window.location.href = 'https://gamingtahmid1yt.github.io/aichatbot-privacy-policy/';
+        window.location.href = 'https://gamingtahmid1yt.github.io/nexora.ai-privacy/';
     });
 });
